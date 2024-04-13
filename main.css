@@ -1,0 +1,36 @@
+:root{
+    --color-primary: #e15f41;
+    --color-white: #fff;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    background-color: var(--color-primary);
+}
+
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar-brand .logo-detail{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--color-white);
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+    color: var(--color-white);
+}
+
+.nav .nav-link.active{
+    background-color: var(--color-white);
+    color: var(--color-primary);
+}
+
+.navbar-toggler{
+    background-color: var(--color-white);
+}
