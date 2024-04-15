@@ -40,10 +40,10 @@ body{
     font-family: 'Pacifico', cursive;
 }
 
-.section-title > span{
-    color: var(--color-primary);
-}
-
 #about{
     background-color: var(--color-bg-section);
+}
+
+.text-colored{
+    color: var(--color-primary);
 }
