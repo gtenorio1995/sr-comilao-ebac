@@ -1,6 +1,7 @@
 :root{
     --color-primary: #e15f41;
     --color-white: #fff;
+    --color-bg-section: #ffeae6;
 }
 
 body{
@@ -33,4 +34,16 @@ body{
 
 .navbar-toggler{
     background-color: var(--color-white);
+}
+
+.section-title{
+    font-family: 'Pacifico', cursive;
+}
+
+.section-title > span{
+    color: var(--color-primary);
+}
+
+#about{
+    background-color: var(--color-bg-section);
 }

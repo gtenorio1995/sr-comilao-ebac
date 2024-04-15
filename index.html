@@ -17,16 +17,16 @@
 </head>
 
 <body>
-    <header class="navbar navbar-expand-lg g-0 sticky-top p-4">
+    <header class="navbar navbar-expand-lg g-0 sticky-top p-4" id="cabecalho">
         <div class="container">
-            <h1 class="navbar-brand m-0"><span class="logo-detail">Sr.</span> Comilão</h1>
+            <h1 class="navbar-brand m-0 section-title"><span class="logo-detail">Sr.</span> Comilão</h1>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <nav class="navbar-collapse collapse justify-content-end" id="menu-navegation">
                 <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item fw-bold">
-                        <a href="#" class="nav-link active">
+                        <a href="#about" class="nav-link">
                             <i class="bi bi-house-door me-1"></i>
                             Sobre o restaurante
                         </a>
@@ -53,6 +53,67 @@
             </nav>
         </div>
     </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="about">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/slides/slide1.png" alt="Foto do espaço interno do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide2.png" alt="Foto de duas taças de vinho">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide3.png" alt="Foto de uma mesa com comida">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/restaurante.jpg" alt="Foto do espaço interno do restaurante"
+                                class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="section-title">Sobre <span>o restaurante</span></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa omnis provident obcaecati
+                                incidunt delectus animi reprehenderit id quas. Debitis quas quo repellendus quasi
+                                quisquam,
+                                sed impedit laudantium ex consequuntur cupiditate.</p>
+                            <h3 class="section-title">Sobre <span>o espaço</span></h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa, neque praesentium!
+                                Consequuntur a esse incidunt laborum accusamus, magni expedita natus, culpa dolorum, non
+                                atque reiciendis eveniet delectus magnam distinctio quo.</p>
+                            <ul>
+                                <li>
+                                    item 1
+                                </li>
+                                <li>
+                                    item 2
+                                </li>
+                                <li>
+                                    item 3
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
