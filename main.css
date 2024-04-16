@@ -21,13 +21,15 @@ body{
     -webkit-text-stroke-color: var(--color-white);
 }
 
+#cabecalho 
 .nav .nav-link,
 .navbar-brand,
-.navbar-brand:hover{
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
     color: var(--color-white);
 }
 
-.nav .nav-link.active{
+#cabecalho .nav .nav-link.active{
     background-color: var(--color-white);
     color: var(--color-primary);
 }
@@ -40,10 +42,24 @@ body{
     font-family: 'Pacifico', cursive;
 }
 
-#about{
+#about,
+#cardapio{
     background-color: var(--color-bg-section);
 }
 
 .text-colored{
     color: var(--color-primary);
+}
+
+.nav-cardapio .nav-link.active{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.nav-cardapio .nav-link:hover{
+    color: var(--color-primary);
+}
+
+#pratos-principais img{
+    height: 185px;
 }
